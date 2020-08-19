@@ -1,0 +1,403 @@
+
+/* 
+    Created on : 03/04/2020,
+    Author     : HQ-InnIT
+*/
+
+
+/* Layout
+************************************/
+
+/* Media queries
+************************************/
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+    /*Tipografia*/
+    #home h1 {
+        font-size: 3em;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {  }
+
+
+body {
+    background: url(../image/img-banco.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Formatação para o menu
+************************************/
+#topo {
+    background: #2d6d00;
+}
+
+#topo .bg-success {
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: greenyellow;
+    
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    /*opacity: 0.9;*/
+}
+
+/* Capa
+************************************/
+.fundo {
+    background-color: #000;
+    padding: 10px 0;
+    opacity: 0.7;
+    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    color: white;
+}
+
+.capa {
+    text-align: center;
+}
+
+#home h1 {
+    color: white;
+}
+
+#home p {
+    color: white;
+}
+
+.btn-custom {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+}
+
+.btn-custom:hover {
+    color: #669900;
+}
+
+/* Tipografia
+----------------------------------------*/
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
+/* Produtos
+----------------------------------------*/
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#produtos {
+    background-color: white;
+}
+
+#produtos h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #669900;
+}
+
+#produtos p {
+    font-family: Josefin Slab, times new roman;
+}
+
+#produtos .btn-custom {
+    color: #669900;
+    border: 2px solid #669900;
+    background-color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+}
+
+#produtos .btn-orçar {
+    color: white;
+    border: 2px solid #669900;
+    background-color: #669900;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+}
+
+#produtos .btn-orçar:hover {
+    border: 2px solid black;
+}
+
+#produtos .btn-custom:hover {
+    color: white;
+    background-color: #669900;
+}
+
+
+/* Localização
+----------------------------------------*/
+iframe {
+    width: 1000px;
+    height:350px; 
+    display: block;
+    margin: auto;
+}
+    
+
+#localizacao {
+    background-color: white;
+}
+
+#localizacao {
+    background-color: white;
+}
+
+#localizacao h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #669900;
+}
+
+/* Footer
+----------------------------------------*/
+footer {
+    background: #2d6d00;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4{
+    color: #99cc33;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: white;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color: #99cc33;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+.contato li span{
+    color: white;
+}
+
+.direitos {
+    font-size: 10px;
+    color: white;
+}
+
+.direitos a {
+    font-size: 14px;
+}
+
+#redes {
+    width: 30px;
+}
+
+/* Sobre a Empresa
+----------------------------------------*/
+
+#sobre-mhterras {
+    background-color: white;
+}
+
+#sobre-mhterras h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #669900;
+}
+
+#sobre-mhterras h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
+}
+
+#sobre-mhterras p {
+    font-family: Josefin Slab, times new roman;
+}
+
+/* Paisagismo
+----------------------------------------*/
+#paisagem {
+    background-color: white;
+}
+
+#paisagem h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
+}
+
+#paisagem .description {
+    text-transform: capitalize;
+}
+
+#paisagem a.item-link {
+    color: white;
+}
+
+/* Decorações
+----------------------------------------*/
+#decoracao {
+    background-color: white;
+}
+
+#decoracao h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
+}
+
+/* Serviços
+----------------------------------------*/
+#servicos {
+    background-color: white;
+}
+
+#servicos h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
+}
+
+/* Produtos
+----------------------------------------*/
+#produtos {
+    background-color: white;
+}
+
+#produtos h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
+}
+
+/* Orçamentos
+----------------------------------------*/
+#orcamento {
+    background-color: white;
+}
+
+#orcamento .maiusculo input {
+    text-transform: capitalize;
+}
+
+#orcamento .products-header {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#orcamento .decoration-header {
+    margin-left: 15px;
+}
+
+#orcamento .landscaping-header {
+    margin-left: 15px;
+}
+
+#orcamento .products-item {
+    margin-left: 40px;
+}
+
+#orcamento .services-item {
+    margin-left: 15px;
+}
+
+#orcamento .landscaping-item {
+    margin-left: 25px;
+}
+
+
+
+#orcamento .decoration-item {
+    margin-left: 25px;
+}
+
+/* Contato
+----------------------------------------*/
+#contato {
+    background-color: white;
+}
+
+#contato h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
+}
