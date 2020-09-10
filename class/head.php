@@ -31,8 +31,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
 
     <!-- Confiuração para icon da aba de navegação-->
-    <link rel='shortcut icon' href='image/img-favicon.ico' />
-
+    <link rel='shortcut icon' href='../image/favicon.png
+          ' />
     <!-- Bootstrap CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     

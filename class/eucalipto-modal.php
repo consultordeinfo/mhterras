@@ -18,7 +18,7 @@
                     </div>
                     <div class="modal-body">
 
-                        <h5>Eucalipto tratado</h5>
+                        <h5><b>Eucalipto tratado</b></h5>
                         <p class="text-justify">
                             O tratamento da madeira deve ser realizado para prevenir sua deterioração, ampliando assim seu tempo de vida
                             útil. O tratamento comumente utilizado é o químico, no qual ocorre a fixação de elementos preservativos na madeira,

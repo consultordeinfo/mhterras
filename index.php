@@ -13,7 +13,7 @@
         require_once './class/head.php';
         ?>
 
-        <title>Paisagismo - Mhterras-v2</title>
+        <title>Paisagismo - Mhterras</title>
     </head>
     <body>
 
@@ -39,7 +39,7 @@
                                     <div class=""><!-- Label -->
                                         <h1 class="display-1">Condomínios e Empresas</h1>
                                         <p>
-                                            Contatos de manutenção - Deixe tudo em nossas mãos!
+                                            Contratos de manutenção - Deixe tudo em nossas mãos!
                                         </p>
 
                                     </div><!-- /Label -->
@@ -106,34 +106,37 @@
                 <!-- Produtos -->
                 <div class="row mt-3 mb-3 border-bottom pb-4 pt-4">
                     
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-4">
                         <img src="image/produtos/ornamental/img-plantas-ornamentais00.jpg" class="img-fluid"/>
                     </div>
 
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-xs-8 custom-produtos">
                         <h2>Plantas Ornamentais</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy
+                        São espécies utilizadas para a <b>decoração interna</b> dos ambientes
+                        e em ações paisagísticas em jardins e outras áreas externas.
                         </p>
                         <a href="produtos.php?acao=ornamental" class="btn btn-custom">Quero conhecer</a>
-                        <a href="" class="btn btn-orçar ml-2">Quero orçamento</a>
+                        <a href="orcamento.php" class="btn btn-orçar ml-2">Quero orçamento</a>
                     </div>
                 </div>
 
                 <!-- Serviços -->
-                <div class="row  mt-3 mb-3 border-bottom pb-4 pt-4">
-                    <div class="col-md-8 text-right">
+                <div class="row mt-3 mb-3 border-bottom pb-4 pt-4">
+                    <div class="col-md-8 col-xs-8 text-right">
                         <h2>Mesas</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy
+                        A vida acontece ao redor de uma <b>mesa de madeira</b>. Ela sempre está cercada de atenções,
+                        seja na hora das refeições ou no dia a dia servindo de apoio para itens diversos.
+                        Durante o café da manhã, almoço ou jantar, ela é o espaço ideal para receber,
+                        para acolher pessoas queridas, para servir pratos apetitosos. Cenário reservado
+                        para encontros e momentos inesquecíveis, regados a muita conversa, sabores e perfumes.
                         </p>
-                        <a href="" class="btn btn-orçar mr-2">Quero orçamento</a>
+                        <a href="orcamento.php" class="btn btn-orçar mr-2">Quero orçamento</a>
                         <a href="decoracao.php?acao=mesas" class="btn btn-custom">Quero conhecer</a>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-4">
                         <img src="image/decoracao/mesas/img-mesa-de-refeitorio.jpg" class="img-fluid"/>
                     </div>
 
@@ -142,18 +145,20 @@
                 <!-- Paisagismo -->
                 <div class="row mt-3 mb-3 border-bottom pb-4 pt-4">
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-4">
                         <img src="image/paisagismo/img-paisagismo-riacho.jpg" class="img-fluid"/>
                     </div>
 
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-xs-8">
                         <h2>Paisagismo</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy
+                        O Paisagismo não é, como muitos acreditam, tão somente a elaboração de jardins e praças.
+                        <b>Ele constitui uma técnica</b> cada vez mais apurada, voltada para a criação de áreas
+                        paisagísticas que possam substituir espaços destruídos pela constante e desordenada
+                        onda de construções.
                         </p>
                         <a href="paisagismo.php?acao=landscape" class="btn btn-custom">Quero conhecer</a>
-                        <a href="" class="btn btn-orçar ml-2">Quero orçamento</a>
+                        <a href="orcamento.php" class="btn btn-orçar ml-2">Quero orçamento</a>
                     </div>
 
                 </div>

@@ -102,6 +102,7 @@ function enviarEmail($arquivo) {
     if ($enviar) {
         require_once './msgEnviado.php';
         echo "<meta http-equiv='refresh' content='5;URL=../index.php'>";
+        
     } else {
         require_once './msgErro.php';
         echo "<meta http-equiv='refresh' content='5;URL=../contato.php'>";

@@ -16,6 +16,9 @@
         <!-- Menus-->
         <?php require_once './class/menu.php'; ?>
         
+        <!-- Modal Eucalipto-->
+        <?php require_once './class/eucalipto-modal.php'; ?>
+        
         <!-- Sobre a Mhterras-->
         <section id="sobre-mhterras">
             <div class="container caixa">

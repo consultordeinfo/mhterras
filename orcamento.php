@@ -14,11 +14,13 @@
     </head>
     <body>
 
-        <?php
-        //requisitando topo
-        require_once './class/menu.php';
-        ?>
+        <!-- requisitando topo -->
+        <?php  require_once './class/menu.php'; ?>
+        
+        <!-- Modal Eucalipto-->
+        <?php require_once './class/eucalipto-modal.php'; ?>
 
+        <!-- Orçamento -->
         <section id="orcamento">
             <div class="container caixa">
                 <h3 class="border-bottom mb-4">Orçamentos</h3>

@@ -16,6 +16,56 @@
     #home h1 {
         font-size: 3em;
     }
+
+    #produtos .btn-custom {
+        color: #669900;
+        border: 2px solid #669900;
+        background-color: white;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    #produtos .btn-orçar {
+        color: white;
+        border: 2px solid #669900;
+        background-color: #669900;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    #produtos h2 {
+        font-family: 'Zilla Slab', serif;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: #669900;
+        font-size: 2em;
+    }
+
+    #sobre-mhterras h2 {
+        font-family: 'Zilla Slab', serif;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: #669900;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #contato h3{
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        color: #669900;
+    }
 }
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -383,10 +433,15 @@ footer ul li {
     margin-left: 25px;
 }
 
-
-
 #orcamento .decoration-item {
     margin-left: 25px;
+}
+
+#orcamento h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #669900;
 }
 
 /* Contato

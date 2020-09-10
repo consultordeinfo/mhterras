@@ -12,6 +12,9 @@
     <body>
         <!-- Menu-->
         <?php require_once './class/menu.php'; ?>
+        
+        <!-- Modal Eucalipto-->
+        <?php require_once './class/eucalipto-modal.php'; ?>
 
         <!-- Contato-->
         <section id="contato">

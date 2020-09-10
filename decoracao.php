@@ -13,6 +13,9 @@
         <!-- Menu-->
         <?php require_once './class/menu.php'; ?>
         
+        <!-- Modal Eucalipto-->
+        <?php require_once './class/eucalipto-modal.php'; ?>
+        
         <!-- Paisagismo -->
         <section id="paisagem">
             <div class="container caixa">

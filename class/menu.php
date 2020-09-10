@@ -43,6 +43,7 @@ echo '<header id="topo">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Serviços</a>
 
                             <div class="dropdown-menu">
+                                <a href="servicos.php?acao=contrato" class="dropdown-item">Contrato manutenção - Condomínos e Empresas</a>
                                 <a href="servicos.php?acao=corte" class="dropdown-item">Corte de Árvores</a>
                                 <a href="servicos.php?acao=churrasqueira" class="dropdown-item">Churrasqueira Coberta</a>
                                 <a href="servicos.php?acao=detetizacao" class="dropdown-item">Detetizações/Iluminações/Irrigações de Jardins</a>
@@ -50,10 +51,9 @@ echo '<header id="topo">
                                 <a href="servicos.php?acao=montagem" class="dropdown-item">Montagem de Decks Pergulados</a>
                                 <a href="servicos.php?acao=solo" class="dropdown-item">Movimentação de Solo</a>
                                 <a href="servicos.php?acao=grama" class="dropdown-item">Piso Grama</a>
+                                <a href="servicos.php?acao=poda" class="dropdown-item">Poda de Árvores/Transplantes de Árvores/Troca de Solo</a>
                                 <a href="servicos.php?acao=plantio" class="dropdown-item">Plantio de Árvores Nativas</a>
                                 <a href="servicos.php?acao=projeto" class="dropdown-item">Projetos Implatações</a>
-                                <a href="servicos.php?acao=contrato" class="dropdown-item">Contrato manutenção - Condomínos e Empresas</a>
-                                <a href="servicos.php?acao=poda" class="dropdown-item">Poda de Árvores/Transplantes de Árvores/Troca de Solo</a>
                             </div>
                         </li>
 

@@ -18,8 +18,9 @@ echo '<footer>
                             <li><a href="servicos.php?acao=corte">serviços</a></li>
                             <li><a href="decoracao.php?acao=bancos">decorações</a></li>
                             <li><a href="paisagismo.php?acao=landscape">paisagismo</a></li>
-                            <li><a href="">orçamentos</a></li>
-                            <li><a href="">contato de serviços</a></li>
+                            <li><a href="orcamento.php">orçamentos</a></li>
+                            <li><a href="servicos.php?acao=contrato">contrato de serviços</a></li>
+                            <li><a href="contato.php">contato</a></li>
                         </ul>
                     </div>
                     
@@ -38,27 +39,26 @@ echo '<footer>
                             <li><span>(11) 9.6833-5457</span></li>
                             <li><span>(11) 9.6833-5457</span></li>
                             <li></li>
-                            <li><span>lu@mhterras.com.br</span></li>
-                            <li><span>edil@mhterras.com.br</span></li>
+                            <li><span>contato@mhterras.com.br</span></li>
                         </ul>
                     </div>
                     
-                    <div class="col-md-2" id="redes">
+                    <div class="col-md-2 col-xs-12" id="redes">
                         <h4 class="text-right">Siga-nos</h4>
                         <ul class="mt-3">
                             <li>
                                 <a href="">
-                                    <img id="redes" src="image/facebook.png" alt="Acesse o facebook" title="Facebook"/>
+                                    <img id="redes" src="image/youtube.png" alt="Acesse o Youtube" title="Youtube"/>
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    <img id="redes" src="image/twitter.png" alt="Acesse o Twitter" title="Twitter"/>
+                                    <img id="redes" src="image/instagram.png" alt="Acesse ao Instagram" title="Instagram"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
-                                    <img id="redes" src="image/instagram.png" alt="Acesse o Instagram" title="Instagram"/>
+                                <a href="https://www.facebook.com/mhterraspaisagismo" target="_blank">
+                                    <img id="redes" src="image/facebook.png" alt="Acesse o Facebook" title="Facebook"/>
                                 </a>
                             </li>
                         </ul>

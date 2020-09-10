@@ -14,7 +14,11 @@
         <!-- Menu-->
         <?php require_once './class/menu.php'; ?>
         
-        <?php $tipo = $_GET['acao']; ?>
+        <!-- Modal Eucalipto-->
+        <?php require_once './class/eucalipto-modal.php'; ?>
+        
+        
+        <?php $tipo = $_GET['acao']; //recebendo a ação passada por get ?>
         
         
         <!-- Serviços -->
